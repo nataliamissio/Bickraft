@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
+  color: #111111;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-bg,
+.introducao-bg {
+  background-color: var(--cor-12);
+  color: var(--cor-0);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
