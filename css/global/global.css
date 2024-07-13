@@ -1,15 +1,15 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 600px;
-  color: #111111;
 }
 
 h1,
 h2,
 h3,
 ul,
-p {
+p,
+blockquote,
+dd {
   margin: 0px;
 }
 
@@ -24,7 +24,9 @@ a {
 }
 
 .header-bg,
-.introducao-bg {
+.introducao-bg,
+.footer-bg,
+.vantagens-bg {
   background-color: var(--cor-12);
   color: var(--cor-0);
 }
