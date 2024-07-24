@@ -20,6 +20,8 @@
   font-size: 18px;
   line-height: 1.33;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
@@ -89,7 +91,7 @@
 .titulo-bg {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--cor-11);
+  background:var(--cor-11) url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {
